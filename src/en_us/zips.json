@@ -1,0 +1,521 @@
+[
+    {
+        "id": "6",
+        "state":"Alaska",
+        "abbreviation":"AK",
+        "from":"99501",
+        "to":"99950"
+    },
+    {
+        "id": "5",
+        "state":"Alabama",
+        "abbreviation":"AL",
+        "from":"35004",
+        "to":"36925"
+    },
+    {
+        "id": "69",
+        "state":"Arkansas",
+        "abbreviation":"AR",
+        "from":"71601",
+        "to":"72959"
+    },
+    {
+        "id": "8",
+        "state":"Arkansas",
+        "city":"Texarkana",
+        "abbreviation":"AR",
+        "from":"75502",
+        "to":"75502"
+    },
+    {
+        "id": "7",
+        "state":"Arizona",
+        "abbreviation":"AZ",
+        "from":"85001",
+        "to":"86556"
+    },
+    {
+        "id": "9",
+        "state":"California",
+        "abbreviation":"CA",
+        "from":"90001",
+        "to":"96162"
+    },
+    {
+        "id": "10",
+        "state":"Colorado",
+        "abbreviation":"CO",
+        "from":"80001",
+        "to":"81658"
+    },
+    {
+        "id": "11",
+        "state":"Connecticut",
+        "abbreviation":"CT",
+        "from":"6001",
+        "to":"6389"
+    },
+    {
+        "id": "73",
+        "state":"Connecticut",
+        "abbreviation":"CT",
+        "from":"6401",
+        "to":"6928"
+    },
+    {
+        "id": "13",
+        "state":"District of Columbia",
+        "abbreviation":"DC",
+        "from":"20001",
+        "to":"20039"
+    },
+    {
+        "id": "74",
+        "state":"District of Columbia",
+        "abbreviation":"DC",
+        "from":"20042",
+        "to":"20599"
+    },
+    {
+        "id": "63",
+        "state":"District of Columbia",
+        "abbreviation":"DC",
+        "from":"20799",
+        "to":"20799"
+    },
+    {
+        "id": "12",
+        "state":"Delaware",
+        "abbreviation":"DE",
+        "from":"19701",
+        "to":"19980"
+    },
+    {
+        "id": "14",
+        "state":"Florida",
+        "abbreviation":"FL",
+        "from":"32004",
+        "to":"34997"
+    },
+    {
+        "id": "15",
+        "state":"Georgia",
+        "abbreviation":"GA",
+        "from":"30001",
+        "to":"31999"
+    },
+    {
+        "id": "65",
+        "state":"Georga",
+        "city":"Atlanta",
+        "abbreviation":"GA",
+        "from":"39901",
+        "to":"39901"
+    },
+    {
+        "id": "16",
+        "state":"Hawaii",
+        "abbreviation":"HI",
+        "from":"96701",
+        "to":"96898"
+    },
+    {
+        "id": "20",
+        "state":"Iowa",
+        "abbreviation":"IA",
+        "from":"50001",
+        "to":"52809"
+    },
+    {
+        "id": "66",
+        "state":"Iowa",
+        "city":"Omaha",
+        "abbreviation":"IA",
+        "from":"68119",
+        "to":"68120"
+    },
+    {
+        "id": "17",
+        "state":"Idaho",
+        "abbreviation":"ID",
+        "from":"83201",
+        "to":"83876"
+    },
+    {
+        "id": "18",
+        "state":"Illinois",
+        "abbreviation":"IL",
+        "from":"60001",
+        "to":"62999"
+    },
+    {
+        "id": "19",
+        "state":"Indiana",
+        "abbreviation":"IN",
+        "from":"46001",
+        "to":"47997"
+    },
+    {
+        "id": "21",
+        "state":"Kansas",
+        "abbreviation":"KS",
+        "from":"66002",
+        "to":"67954"
+    },
+    {
+        "id": "22",
+        "state":"Kentucky",
+        "abbreviation":"KY",
+        "from":"40003",
+        "to":"42788"
+    },
+    {
+        "id": "68",
+        "state":"Louisiana",
+        "abbreviation":"LA",
+        "from":"70001",
+        "to":"71232"
+    },
+    {
+        "id": "23",
+        "state":"Louisiana",
+        "abbreviation":"LA",
+        "from":"71234",
+        "to":"71497"
+    },
+    {
+        "id": "26",
+        "state":"Massachusetts",
+        "abbreviation":"MA",
+        "from":"1001",
+        "to":"2791"
+    },
+    {
+        "id": "58",
+        "state":"Massachusetts",
+        "city":"Andover",
+        "abbreviation":"MA",
+        "from":"5501",
+        "to":"5544"
+    },
+    {
+        "id": "77",
+        "state":"Maryland",
+        "abbreviation":"MD",
+        "from":"20331",
+        "to":"20331"
+    },
+    {
+        "id": "78",
+        "state":"Maryland",
+        "abbreviation":"MD",
+        "from":"20335",
+        "to":"20797"
+    },
+    {
+        "id": "25",
+        "state":"Maryland",
+        "abbreviation":"MD",
+        "from":"20812",
+        "to":"21930"
+    },
+    {
+        "id": "24",
+        "state":"Maine",
+        "abbreviation":"ME",
+        "from":"3901",
+        "to":"4992"
+    },
+    {
+        "id": "27",
+        "state":"Michigan",
+        "abbreviation":"MI",
+        "from":"48001",
+        "to":"49971"
+    },
+    {
+        "id": "28",
+        "state":"Minnesota",
+        "abbreviation":"MN",
+        "from":"55001",
+        "to":"56763"
+    },
+    {
+        "id": "57",
+        "state":"kc96 DataMO",
+        "abbreviation":"MO",
+        "from":"63001",
+        "to":"65899"
+    },
+    {
+        "id": "29",
+        "state":"Mississippi",
+        "abbreviation":"MS",
+        "from":"38601",
+        "to":"39776"
+    },
+    {
+        "id": "59",
+        "state":"Mississippi",
+        "city":"Warren",
+        "abbreviation":"MS",
+        "from":"71233",
+        "to":"71233"
+    },
+    {
+        "id": "31",
+        "state":"Montana",
+        "abbreviation":"MT",
+        "from":"59001",
+        "to":"59937"
+    },
+    {
+        "id": "38",
+        "state":"North Carolina",
+        "abbreviation":"NC",
+        "from":"27006",
+        "to":"28909"
+    },
+    {
+        "id": "39",
+        "state":"North Dakota",
+        "abbreviation":"ND",
+        "from":"58001",
+        "to":"58856"
+    },
+    {
+        "id": "67",
+        "state":"Nebraska",
+        "abbreviation":"NE",
+        "from":"68001",
+        "to":"68118"
+    },
+    {
+        "id": "32",
+        "state":"Nebraska",
+        "abbreviation":"NE",
+        "from":"68122",
+        "to":"69367"
+    },
+    {
+        "id": "34",
+        "state":"New Hampshire",
+        "abbreviation":"NH",
+        "from":"3031",
+        "to":"3897"
+    },
+    {
+        "id": "35",
+        "state":"New Jersey",
+        "abbreviation":"NJ",
+        "from":"7001",
+        "to":"8989"
+    },
+    {
+        "id": "36",
+        "state":"New Mexico",
+        "abbreviation":"NM",
+        "from":"87001",
+        "to":"88441"
+    },
+    {
+        "id": "33",
+        "state":"Nevada",
+        "abbreviation":"NV",
+        "from":"88901",
+        "to":"89883"
+    },
+    {
+        "id": "60",
+        "state":"New York",
+        "city":"Fishers Island",
+        "abbreviation":"NY",
+        "from":"6390",
+        "to":"6390"
+    },
+    {
+        "id": "37",
+        "state":"New York",
+        "abbreviation":"NY",
+        "from":"10001",
+        "to":"14975"
+    },
+    {
+        "id": "40",
+        "state":"Ohio",
+        "abbreviation":"OH",
+        "from":"43001",
+        "to":"45999"
+    },
+    {
+        "id": "70",
+        "state":"Oklahoma",
+        "abbreviation":"OK",
+        "from":"73001",
+        "to":"73199"
+    },
+    {
+        "id": "41",
+        "state":"Oklahoma",
+        "abbreviation":"OK",
+        "from":"73401",
+        "to":"74966"
+    },
+    {
+        "id": "42",
+        "state":"Oregon",
+        "abbreviation":"OR",
+        "from":"97001",
+        "to":"97920"
+    },
+    {
+        "id": "43",
+        "state":"Pennsylvania",
+        "abbreviation":"PA",
+        "from":"15001",
+        "to":"19640"
+    },
+    {
+        "id": "44",
+        "state":"Puerto Rico",
+        "abbreviation":"PR",
+        "from":"0",
+        "to":"0"
+    },
+    {
+        "id": "45",
+        "state":"Rhode Island",
+        "abbreviation":"RI",
+        "from":"2801",
+        "to":"2940"
+    },
+    {
+        "id": "46",
+        "state":"South Carolina",
+        "abbreviation":"SC",
+        "from":"29001",
+        "to":"29948"
+    },
+    {
+        "id": "47",
+        "state":"South Dakota",
+        "abbreviation":"SD",
+        "from":"57001",
+        "to":"57799"
+    },
+    {
+        "id": "48",
+        "state":"Tennessee",
+        "abbreviation":"TN",
+        "from":"37010",
+        "to":"38589"
+    },
+    {
+        "id": "49",
+        "state":"Texas",
+        "city":"Austin",
+        "abbreviation":"TX",
+        "from":"73301",
+        "to":"73301"
+    },
+    {
+        "id": "71",
+        "state":"Texas",
+        "abbreviation":"TX",
+        "from":"75001",
+        "to":"75501"
+    },
+    {
+        "id": "72",
+        "state":"Texas",
+        "abbreviation":"TX",
+        "from":"75503",
+        "to":"79999"
+    },
+    {
+        "id": "61",
+        "state":"Texas",
+        "city":"El Paso",
+        "abbreviation":"TX",
+        "from":"88510",
+        "to":"88589"
+    },
+    {
+        "id": "50",
+        "state":"Utah",
+        "abbreviation":"UT",
+        "from":"84001",
+        "to":"84784"
+    },
+    {
+        "id": "64",
+        "state":"Virginia",
+        "abbreviation":"VA",
+        "from":"20040",
+        "to":"20041"
+    },
+    {
+        "id": "75",
+        "state":"Virginia",
+        "abbreviation":"VA",
+        "from":"20040",
+        "to":"20167"
+    },
+    {
+        "id": "76",
+        "state":"Virginia",
+        "abbreviation":"VA",
+        "from":"20042",
+        "to":"20042"
+    },
+    {
+        "id": "52",
+        "state":"Virginia",
+        "abbreviation":"VA",
+        "from":"22001",
+        "to":"24658"
+    },
+    {
+        "id": "51",
+        "state":"Vermont",
+        "abbreviation":"VT",
+        "from":"5001",
+        "to":"5495"
+    },
+    {
+        "id": "62",
+        "state":"Vermont",
+        "abbreviation":"VT",
+        "from":"5601",
+        "to":"5907"
+    },
+    {
+        "id": "53",
+        "state":"Washington",
+        "abbreviation":"WA",
+        "from":"98001",
+        "to":"99403"
+    },
+    {
+        "id": "55",
+        "state":"Wisconsin",
+        "abbreviation":"WI",
+        "from":"53001",
+        "to":"54990"
+    },
+    {
+        "id": "54",
+        "state":"West Virginia",
+        "abbreviation":"WV",
+        "from":"24701",
+        "to":"26886"
+    },
+    {
+        "id": "56",
+        "state":"Wyoming",
+        "abbreviation":"WY",
+        "from":"82001",
+        "to":"83128"
+    }
+]
