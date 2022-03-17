@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "@faker-js/faker": "^6.0.0-beta.0",
+    "country-list-json": "^1.0.7",
     "object-access": "^2.0.4",
     "randexp": "^0.5.3"
   }

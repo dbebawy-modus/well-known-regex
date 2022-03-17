@@ -27,12 +27,14 @@ const isRegexType = function(varPath, value){ //value is a schema node or a JSON
     let field = accessor.get(varPath);
     if(!field) return false;
     try{
+        if(!value) return false;
         if(value.pattern && (new RegExp(value.pattern))){
             return field.pattern.toString() === value.pattern.toString();
         }
     }catch(ex){
         console.log(ex);
     }
+    return false;
     //assume primitive type
 }
 
@@ -182,7 +184,8 @@ const generateData = (ob, options = {locale:'en_us'})=>{
                 results[field.name] = fake();
                 resultsByType[field.type.id] = results[field.name];
             }else{
-                results[field.name] = new RandExp(field.type.pattern.replace(/\?<[A-Za-z]+>/g, '')).gen();
+                let noNamedGroups = field.type.pattern.replace(/\?<[A-Za-z][A-Za-z0-9]*>/g, '');
+                results[field.name] = new RandExp(noNamedGroups).gen();
                 resultsByType[field.type.id] = results[field.name];
             }
         }

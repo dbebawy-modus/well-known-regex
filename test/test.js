@@ -44,14 +44,14 @@ describe('well-known-regex', ()=>{
                 email : WKR.internet.email,
                 fullAddress : WKR.address.fullThreeLineAddress,
                 zipCode : WKR.address.zipCode,
-                cityName : WKR.address.cityName,
+                city : WKR.address.city,
                 stateAbbr : WKR.address.stateAbbr,
                 streetAddress : WKR.address.streetAddress,
             }, { locale: 'en_us', seed: 'some_seed' });
             should.exist(generated.name);
             should.exist(generated.email);
             should.exist(generated.zipCode);
-            should.exist(generated.cityName);
+            should.exist(generated.city);
             should.exist(generated.stateAbbr);
             should.exist(generated.streetAddress);
             should.exist(generated.firstName);
@@ -62,14 +62,14 @@ describe('well-known-regex', ()=>{
             generated.name.should.equal("Dewitt67");
             generated.email.should.equal("Pauline_Goldner59@gmail.com");
             generated.zipCode.should.equal("31840");
-            generated.cityName.should.equal("Plainfield");
-            generated.stateAbbr.should.equal("MD");
-            generated.streetAddress.should.equal("327 Leonard Grove");
-            generated.firstName.should.equal("Shayne");
+            generated.city.should.equal("Jacobiside");
+            generated.stateAbbr.should.equal("LA");
+            generated.streetAddress.should.equal("73968 Tom Glens");
+            generated.firstName.should.equal("Robb");
             generated.middleName.should.equal("a");
-            generated.lastName.should.equal("Pouros");
-            generated.fullAddress.should.equal("327 Leonard Grove\nPlainfield, MD\n31840");
-            generated.fullName.should.equal("Shayne a Pouros");
+            generated.lastName.should.equal("Rodriguez");
+            generated.fullAddress.should.equal("73968 Tom Glens\nJacobiside, LA\n31840");
+            generated.fullName.should.equal("Robb a Rodriguez");
         });
     });
 });
