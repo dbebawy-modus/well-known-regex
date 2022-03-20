@@ -12,8 +12,8 @@ Usage
 ```javascript
 const { WKR, classifyRegex, generateData } = require('well-known-regex');
 let classified = classify({
-    name : { pattern: WKR.user.username },
-    email : { pattern: WKR.user.email },
+    name : { pattern: WKR.internet.username.pattern },
+    email : { pattern: WKR.internet.email.pattern },
 }, {locale: 'en_us'});
 
 /*
@@ -24,8 +24,8 @@ classified => {
 */
 
 let generated = generateData({
-    name : { pattern: WKR.user.username },
-    email : { pattern: WKR.user.email },
+    name : { pattern: WKR.internet.username.pattern },
+    email : { pattern: WKR.internet.email.pattern },
 }, {locale: 'en_us', seed: 'some_value'});
 
 ```
