@@ -46,11 +46,12 @@ const flatList = Object.keys(WKR).reduce((agg, key)=>{
 
 const classifyRegex = (ob, locale = 'en_us')=>{
     let classified = {};
-    Object.keys(ob).forEach((key)=>{
+    let target = ob.properties?ob.properties:ob;
+    Object.keys(target).forEach((key)=>{
         let found = false;
         flatList.forEach((candidate)=>{
             if(found) return;
-            if(isRegexType(candidate, ob[key])){
+            if(isRegexType(candidate, target[key])){
                 classified[key] = candidate;
                 found = true;
             }
