@@ -23,11 +23,11 @@ const name = {
         pattern: '^(?<firstname>[A-Za-z][A-Za-z ]+)$',
     },
     lastName : {
-        pattern: '^(?<middlename>[A-Za-z][A-Za-z]+ )$',
+        pattern: '^(?<middlename>[A-Za-z][A-Za-z ]+)$',
         wants: ['internet.locales']
     },
     middleName : {
-        pattern: '^(?<lastname>[A-Za-z][A-Za-z]+ )$',
+        pattern: '^(?<lastname>[A-Za-z][A-Za-z ]+)$',
         wants: ['internet.locales']
     },
     gender : {
