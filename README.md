@@ -12,8 +12,10 @@ Usage
 ```javascript
 const { WKR, classifyRegex, generateData } = require('well-known-regex');
 let classified = classify({
-    name : { pattern: WKR.internet.username.pattern },
-    email : { pattern: WKR.internet.email.pattern },
+    properties : {
+        name : { pattern: WKR.internet.username.pattern },
+        email : { pattern: WKR.internet.email.pattern }
+    }
 }, {locale: 'en_us'});
 
 /*
@@ -24,8 +26,10 @@ classified => {
 */
 
 let generated = generateData({
-    name : { pattern: WKR.internet.username.pattern },
-    email : { pattern: WKR.internet.email.pattern },
+    properties : {
+        name : { pattern: WKR.internet.username.pattern },
+        email : { pattern: WKR.internet.email.pattern }
+    }
 }, {locale: 'en_us', seed: 'some_value'});
 
 ```
