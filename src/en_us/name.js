@@ -20,10 +20,10 @@ const name = {
         wants: ['internet.locales'] //a set of locales
     },
     title : {
-        pattern: '^(?<firstname>[A-Za-z][A-Za-z ]+)$',
+        pattern: '^(?<title>[A-Za-z][A-Za-z ]+)$',
     },
     lastName : {
-        pattern: '^(?<middlename>[A-Za-z][A-Za-z ]+)$',
+        pattern: '^(?<middlename>[A-Za-z][A-Za-z\'-]+)$',
         wants: ['internet.locales']
     },
     middleName : {
