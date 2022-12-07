@@ -1,6 +1,6 @@
 {
   "name": "well-known-regex",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "main": "well-known-regex.js",
   "dependencies": {
     "@faker-js/faker": "^7.6.0",
