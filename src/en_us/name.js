@@ -3,7 +3,7 @@ const RandExp = require('randexp');
 const name = {
     fullName : {
         pattern: '^(?<firstname>[A-Za-z][A-Za-z]+) (?<middlename>[A-Za-z][A-Za-z]+ )(?<lastname>[A-Za-z][A-Za-z]+)$',
-        wants: ['name.firstName', 'name.lastName', 'name.middleName'],
+        wants: ['name.firstName', 'name.middleName', 'name.lastName'],
         generate : (values)=>{
             let random = new RandExp(
                 module.exports.fullName.pattern.replace(/\?<[A-Za-z]+>/g, '')
@@ -19,16 +19,16 @@ const name = {
         pattern: '^(?<firstname>[A-Za-z][A-Za-z]+)$',
         wants: ['internet.locales'] //a set of locales
     },
-    title : {
-        pattern: '^(?<title>[A-Za-z][A-Za-z ]+)$',
-    },
-    lastName : {
+    middleName : {
         pattern: '^(?<middlename>[A-Za-z][A-Za-z\'-]+)$',
         wants: ['internet.locales']
     },
-    middleName : {
+    lastName : {
         pattern: '^(?<lastname>[A-Za-z][A-Za-z ]+)$',
         wants: ['internet.locales']
+    },
+    jobTitle : {
+        pattern: '^(?<jobtitle>[A-Za-z][A-Za-z ]+)$',
     },
     gender : {
         pattern: '^(?<gender>[A-Za-z ]{3, 30})'

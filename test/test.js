@@ -40,7 +40,8 @@ describe('well-known-regex', ()=>{
                 firstName : WKR.name.firstName,
                 middleName : WKR.name.middleName,
                 lastName : WKR.name.lastName,
-                name : WKR.internet.userName,
+                jobTitle : WKR.name.jobTitle,
+                userName : WKR.internet.userName,
                 email : WKR.internet.email,
                 fullAddress : WKR.address.fullThreeLineAddress,
                 zipCode : WKR.address.zipCode,
@@ -48,7 +49,7 @@ describe('well-known-regex', ()=>{
                 stateAbbr : WKR.address.stateAbbr,
                 streetAddress : WKR.address.streetAddress,
             }, { locale: 'en_us', seed: 'some_seed' });
-            should.exist(generated.name);
+            should.exist(generated.userName);
             should.exist(generated.email);
             should.exist(generated.zipCode);
             should.exist(generated.city);
@@ -57,19 +58,21 @@ describe('well-known-regex', ()=>{
             should.exist(generated.firstName);
             should.exist(generated.middleName);
             should.exist(generated.lastName);
+            should.exist(generated.jobTitle);
             should.exist(generated.fullAddress);
             should.exist(generated.fullName);
-            generated.name.should.equal("Dewitt67");
-            generated.email.should.equal("Pauline_Goldner59@gmail.com");
-            generated.zipCode.should.equal("31840");
-            generated.city.should.equal("Jacobiside");
-            generated.stateAbbr.should.equal("LA");
-            generated.streetAddress.should.equal("73968 Tom Glens");
-            generated.firstName.should.equal("Robb");
-            generated.middleName.should.equal("a");
-            generated.lastName.should.equal("Rodriguez");
-            generated.fullAddress.should.equal("73968 Tom Glens\nJacobiside, LA\n31840");
-            generated.fullName.should.equal("Robb a Rodriguez");
+            generated.userName.should.equal("Marie.Gislason98");
+            generated.email.should.equal("Laurel.Bednar@yahoo.com");
+            generated.zipCode.should.equal("40639-3273");
+            generated.city.should.equal("Newton");
+            generated.stateAbbr.should.equal("VT");
+            generated.streetAddress.should.equal("69817 Victor Shore");
+            generated.firstName.should.equal("Lucie");
+            generated.middleName.should.equal("Charlie");
+            generated.lastName.should.equal("Franey");
+            generated.jobTitle.should.equal("Future Response Officer");
+            generated.fullAddress.should.equal("69817 Victor Shore\nNewton, VT\n40639-3273");
+            generated.fullName.should.equal("Lucie Charlie Franey");
         });
     });
 });
