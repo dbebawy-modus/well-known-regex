@@ -72,7 +72,7 @@ describe('well-known-regex', ()=>{
             generated.lastName.should.equal("Franey");
             generated.jobTitle.should.equal("Future Response Officer");
             generated.fullAddress.should.equal("69817 Victor Shore\nNewton, VT\n40639-3273");
-            generated.fullName.should.equal("Lucie Charlie Franey");
+            generated.fullName.startsWith("Lucie Charlie Franey").should.equal(true)
         });
     });
 });

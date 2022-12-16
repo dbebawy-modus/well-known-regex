@@ -2,7 +2,7 @@ const RandExp = require('randexp');
 
 const name = {
     fullName : {
-        pattern: '^(?<firstname>[A-Za-z][A-Za-z]+) (?<middlename>[A-Za-z][A-Za-z]+ )(?<lastname>[A-Za-z][A-Za-z]+)$',
+        pattern: '^(?<firstname>[A-Za-z][\'A-Za-z -]+) (?<middlename>[A-Za-z][\'A-Za-z -]+ )(?<lastname>[A-Za-z][\'A-Za-z -]+)$',
         wants: ['name.firstName', 'name.middleName', 'name.lastName'],
         generate : (values)=>{
             let random = new RandExp(
@@ -16,15 +16,15 @@ const name = {
         }
     },
     firstName : {
-        pattern: '^(?<firstname>[A-Za-z][A-Za-z]+)$',
+        pattern: '^(?<firstname>[A-Za-z][\'A-Za-z -]+) *$',
         wants: ['internet.locales'] //a set of locales
     },
     middleName : {
-        pattern: '^(?<middlename>[A-Za-z][A-Za-z\'-]+)$',
+        pattern: '^(?<middlename>[A-Za-z][\'A-Za-z -]+) *$',
         wants: ['internet.locales']
     },
     lastName : {
-        pattern: '^(?<lastname>[A-Za-z][A-Za-z ]+)$',
+        pattern: '^(?<lastname>[A-Za-z][\'A-Za-z -]+)$',
         wants: ['internet.locales']
     },
     jobTitle : {
